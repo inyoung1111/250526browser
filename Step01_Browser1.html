@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+ <script>
+    /*
+     Browser  객체 모델 BOM / DOM
+     브라우저가 자바스크립트 문법 외에 제어하기 위해 제공하는 추가 객체
+     브라우저 창에 포함된 모든 객체 요소들
+
+    { 오브젝트 = 객제 }
+
+    = 웹 브라우저와 관련된 객체의 집합
+    (window location navigater history)
+    자바스크립트가 아닌 웹브라우저가 제공하는 기능 
+
+    window가 최상위 객체 : 생략가능
+    var window = {document  : ...}
+    window.document
+    document
+
+    [window]
+    - 새 창을 생성하는 역할 ..등을 함
+    - 메서드 함수를 호출하는 오브젝트가 있으면 메서드라고 함
+        오브젝트 안에 함수를 뜻함
+    
+    open 메서드
+    새로운 창을 열게 해준다. 
+    window.open('https:naver.com'); 네이버로 이동
+    */
+    // window.open('https:naver.com');
+
+    // window.alert('경고창을 열때 사용')window 생략가능
+    // window.alert('경고창을 열때 사용')
+
+    // window.prompt('질문', '응답창을 열 때 사용 [기본응답]');
+
+    //confirm
+    // window.confirm('질문을 넣으세요(확인/취소)')
+
+    // ******setTimeout******
+    // var f1 =function(){
+    //     document.write  ('해당시간 뒤에 실행문 한번만 실행')
+    // }
+    //  window.setTimeout(f1,3000);
+
+
+    var f2 = function(){
+        document.write('해당시간 뒤에 실행문을 반복적 수행')
+    }
+    window.setInterval( );
+
+ </script>
+</body>
+</html>
