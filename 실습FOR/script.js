@@ -1,6 +1,21 @@
-﻿/*
-	1. key 변수를 생성하고 num값 185를 넣으세요.
+﻿
+var key = 185;
 
+function update(){
+	document.getElementById('height').innerHTML = key + 'CM';
+	document.getElementById('log').style.height = key + 'px';
+
+
+}
+if(key <= 160){
+	document.getElementById('face').classList.add('cry')
+} else {
+	document.getElementById('face').classList.remove('cry')
+	console.log('')
+}
+
+/*
+	1. key 변수를 생성하고 num값 185를 넣으세요.
 	2. update라는 이름의 함수를 만드세요.
 
 	- update함수안에는 이러한 기능이 들어가야 합니다.
@@ -48,3 +63,4 @@
 		- #arr-top과 #arr-bottom, 각각 for문 썼을때 안썼을 때 어떻게 바꿔야할지 생각해보세요.
 
 */
+
